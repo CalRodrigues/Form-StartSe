@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dicas de Séries e Filmes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="nav">
+    <h3>Filmes & Séries</h3>
+    <ul class="nav-links">
+      <li><a href="#home">Ínicio</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#form">Formulário</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <div class="hero">
+      <h1>As melhores dicas de filmes e séries</h1>
+      <p>
+        Preencha o formulário abaixo para receber as melhores indicações do que assistir.
+      </p>
+      <a class="cta-btn" href=#form>Comece agora!</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <div class="container">
+        <div class="col-1">
+          <h2>Sobre Mim</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam eaque veniam molestiae molestias quisquam modi aut perferendis hic nihil error. Necessitatibus neque voluptate maiores minima consequatur laudantium adipisci veniam modi.
+          </p>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam eaque veniam molestiae molestias quisquam modi aut perferendis hic nihil error. Necessitatibus neque voluptate maiores minima consequatur laudantium adipisci veniam modi.
+          </p>
+        </div>
+        <div class="col-2">
+          <img class="imagem" src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="">
+        </div>
+      </div>
+
+    </section>
+
+    <form id="form" action="#">
+      <fieldset>
+        <h2>Formulário de Interesses</h2>
+
+        <div class="form-grupo">
+          <label for="userName">Seu nome:</label>
+          <input type="text" name="userName" id="userName" placeholder="Jane Doe">
+        </div>
+
+        <div class="form-grupo">
+          <label for="userEmail">Seu e-mail:</label>
+          <input type="email" name="userEmail" id="userEmail" placeholder="exemplo@exemplo.com.br">
+        </div>
+
+        <div class="form-grupo">
+          <label for="userFavFilm">Filme ou série favorito:</label>
+          <input type="text" name="userFavFilm" id="userFavFilm" placeholder="Ex: Friends">
+        </div>
+
+        <div class="form-grupo">
+          <label for="userComment">Nos conte um pouquinho sobre você:</label>
+          <textarea name="userComment" id="userComment"></textarea>
+        </div>
+
+        <div class="radio-grupo">
+          <label for="radio">Por onde você mais assiste filmes/séries?</label>
+          <input type="radio" name="radio" id="1"> Computador <br>
+          <input type="radio" name="radio" id="2"> Celular <br>
+          <input type="radio" name="radio" id="3"> Televisão
+        </div>
+
+        <div class="form-grupo ultimo">
+          <label for="moviePref">Qual gênero de filmes/séries você mais gosta?</label>
+          <select name="moviePref">
+            <option>Selecione uma opção</option>
+            <option value=1>Comédia</option>
+            <option value=2>Romance</option>
+            <option value=3>Drama</option>
+            <option value=4>Terror</option>
+            <option value=5>Ação</option>
+            <option value=6>Ficção Científica</option>
+          </select>
+        </div>
+        <input id="form-btn" type=submit value="ENVIAR">
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>Feito com ❤️ por <a href="https://github.com/calrodrigues" target="_blank">Caroline Rodrigues</a></p>
+  </footer>
+</body>
+
+</html>
